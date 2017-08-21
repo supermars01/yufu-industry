@@ -1,0 +1,90 @@
+﻿.newsList li.newsItems{display: none}
+.newsList li.active{display: block}
+.news{margin:50px 0 20px;overflow: hidden;}
+.news li{
+	width:50%;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+.news li a{text-decoration: none;display:block;overflow: hidden;}
+.news li div{
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.news li img{
+	width: 100%;
+	display: block;
+	border:none;
+}
+.news li p{
+	padding: 10px;
+	font-size: 14px;
+	height: 90px;
+	line-height: 25px;
+	margin-top: -5px;
+	background-color: #fff;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	color: #727070
+}
+.brief img{
+	width: 370px;
+	float: left;
+	margin-right: 50px;
+}
+.brief p{
+	width:520px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px
+}
+.fn-clear p{display: none}
+.cur p{
+		display: block;
+	    width: 650px;
+	    line-height: 50px;
+	    height: 50px;
+	    color: #646464;
+	    position: absolute;
+	    left: -275px;
+	    top: 320px;
+	    font-size: 16px;
+	    text-align: center;
+	    background-color: #fff;
+}
+.cur p span{
+	display: block;
+	width: 610px;
+	padding: 0 20px;
+	height: 100%;
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+}
+.cur p:before {
+	background-color:#fff;
+	position:absolute;
+	width: 10px;
+    height: 10px;
+    top: -5px;
+	left:47%;
+	z-index:9;
+	content:"";
+	border:0;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+}
+.transparent-header .ui-container, .transparent .ui-container{
+	margin-top: 0
+}
+.transparent-header .header{background-color: #938273}
