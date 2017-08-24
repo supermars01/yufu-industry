@@ -88,7 +88,7 @@ a:hover {
 }
 .header-brand a,.header-brand img {
 	display:inline-block;
-	width:155px;
+	width:201px;
 	height:40px;
 	border:none;
 }
@@ -119,9 +119,9 @@ a:hover {
 .nav-menu .nav-list:hover .nav-second {
 	display:block;
 }
-.nav-menu .nav-list:last-child .nav-second {
+/*.nav-menu .nav-list:last-child .nav-second {
 	left:-4px;
-}
+}*/
 .nav-menu .nav-second {
 	display:none;
 	position:absolute;
@@ -314,7 +314,7 @@ a:hover {
 }
 .footer-left .footer-name {
 	font-size:18px;
-	width: 144px;
+	width: 180px;
 }
 .footer-left .footer-name img{
 	width: 100%
@@ -731,7 +731,7 @@ body {
 	text-align:center;
 	height:122px;
 	line-height:180px;
-	cursor:default;
+	cursor:pointer;
 	transition:left .3s ease-out;
 }
 .history #year div ul li.sibling {
@@ -788,6 +788,7 @@ body {
 	height:350px;
 	transition:all .3s ease-out;
 	transform-origin:50% 50%;
+	cursor:pointer;
 }
 .history #pic ul li img {
 	position:absolute;

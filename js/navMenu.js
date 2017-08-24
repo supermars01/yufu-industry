@@ -1,5 +1,26 @@
 ﻿$(function(){
-      var strVar = "",strBtm = "";
+      var strHeader="",strVar = "",strBtm = "";
+            strHeader += "<div class=\"header\"> \n";
+            strHeader += "    <div class=\"header-box fn-clear\"> \n";
+            strHeader += "     <div class=\"header-brand fn-left\"> \n";
+            strHeader += "      <a href=\"./index.html\" class=\"brand-img\"> <img src=\"./images/logo.png\" alt=\"裕福集团\" /> <\/a> \n";
+            strHeader += "     <\/div> \n";
+            strHeader += "     <div class=\"header-nav\"> \n";
+            strHeader += "      <div class=\"nav-menu fn-clear\">  \n";
+            strHeader += "      <\/div>\n";
+            strHeader += "     <\/div> \n";
+            strHeader += "     <div class=\"nav-right fn-right\">  \n";
+            strHeader += "      <div class=\"nav-lang\"> \n";
+            strHeader += "       <ul class=\"lang-downlist\"> \n";
+            strHeader += "        <li class=\"downlist-item  current\" data-value=\"zh-CN\"> <a class=\"item-link\">简<\/a> <\/li> \n";
+            strHeader += "        <li class=\"downlist-item\" data-value=\"zh-TW\"> <a class=\"item-link\">繁<\/a> <\/li> \n";
+            strHeader += "        <li class=\"downlist-item\" data-value=\"en\"> <a class=\"item-link\">EN<\/a> <\/li> \n";
+            strHeader += "       <\/ul> \n";
+            strHeader += "      <\/div> \n";
+            strHeader += "     <\/div> \n";
+            strHeader += "    <\/div> \n";
+            strHeader += "   <\/div>\n";
+            $(".global-header").html(strHeader);
             strVar += "<div class=\"nav-list\"> \n";
             strVar += "        <a href=\"./index.html\" class=\"nav-list-a i18n\" name=\"index\"><\/a> \n";
             strVar += "       <\/div> \n";
@@ -7,8 +28,8 @@
             strVar += "        <a href=\"javascript:;\" class=\"nav-list-a i18n\" name=\"AboutFu\"><\/a> \n";
             strVar += "        <ul class=\"nav-second\"> \n";
             strVar += "         <li> <a href=\"./brief.html\" class=\"i18n\" name=\"AF11\"><\/a> <\/li> \n";
+            strVar += "         <li> <a href=\"./TOGAF.html\" class=\"i18n\" name=\"TOGAF\"><\/a> <\/li> \n";
             strVar += "         <li> <a href=\"./history.html\" class=\"i18n\" name=\"AF12\"><\/a> <\/li> \n";
-            strVar += "         <li> <a href=\"./civilization.html\" class=\"i18n\" name=\"AF13\"><\/a> <\/li> \n";
             strVar += "         <li> <a href=\"./honor.html\" class=\"i18n\" name=\"AF14\"><\/a> <\/li> \n";
             strVar += "        <\/ul> \n";
             strVar += "       <\/div> \n";
@@ -23,9 +44,10 @@
             strVar += "        <\/ul> \n";
             strVar += "       <\/div> \n";
             strVar += "       <div class=\"nav-list\"> \n";
-            strVar += "        <a href=\"javascript:;\" class=\"nav-list-a i18n\" name=\"news\"><\/a> \n";
+            strVar += "        <a href=\"javascript:;\" class=\"nav-list-a i18n\" name=\"civilizition\"><\/a> \n";
             strVar += "        <ul class=\"nav-second\"> \n";
-            strVar += "         <li> <a href=\"./news.html\" class=\"i18n\" name=\"AF31\"><\/a> <\/li> \n";
+            strVar += "         <li> <a href=\"./civilization.html\" class=\"i18n\" name=\"AF13\"><\/a> <\/li> \n";
+            strVar += "         <li> <a href=\"./volunteerActivity.html\" class=\"i18n\" name=\"volunteerActivity\"><\/a> <\/li> \n";
             strVar += "        <\/ul> \n";
             strVar += "       <\/div> \n";
             strVar += "       <div class=\"nav-list\"> \n";
@@ -34,6 +56,7 @@
             strVar += "         <li> <a href=\"./cooper.html?cooper=1\" class=\"i18n\" name=\"AF41\"><\/a> <\/li> \n";
             strVar += "         <li> <a href=\"./cooper.html?cooper=2\" class=\"i18n\" name=\"AF42\"><\/a> <\/li> \n";
             strVar += "         <li> <a href=\"./cooper.html?cooper=3\" class=\"i18n\" name=\"AF43\"><\/a> <\/li> \n";
+            strVar += "         <li> <a href=\"./cooper.html?cooper=4\" class=\"i18n\" name=\"AF44\"><\/a> <\/li> \n";
             strVar += "        <\/ul> \n";
             strVar += "       <\/div> \n";
             strVar += "       <div class=\"nav-list\"> \n";
@@ -53,5 +76,5 @@
             strBtm += "       <span class=\"copyright i18n\" name=\"copyright\"><\/span>\n";
             strBtm += "       <span class=\"i18n\" name=\"recordNumber\"><\/span> \n";
             strBtm += "      <\/div>\n";
-            $(".footer-bottom").html(strBtm)
+            $(".footer-bottom").html(strBtm);
 })
