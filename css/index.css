@@ -105,7 +105,7 @@ a:hover {
 .nav-menu .nav-list {
 	float:left;
 	position:relative;
-	padding:0 15px;
+	padding:0 20px;
 	box-sizing:border-box;
 }
 .nav-menu .nav-list a {
@@ -126,7 +126,8 @@ a:hover {
 	display:none;
 	position:absolute;
 	top:70px;
-	left:-17px;
+	left:50%;
+	transform: translate(-50%,0);
 	width:120px;
 	padding:10px 0;
 	border-top:4px solid #000;
@@ -669,6 +670,9 @@ body {
 .group-summary {
 	/*padding-bottom:40px;*/
 }
+.la{
+  	transform: scale(0.8);
+  }
 .group-summary .title {
 	margin:56px 0 36px;
 }
@@ -696,13 +700,15 @@ body {
 	line-height:45px;
 	letter-spacing:0;
 }
+.pa{text-decoration: none;}
 .group-summary .summary {
 	width:900px;
 	margin:0 auto;
 	font-size:16px;
 	line-height:40px;
 	color:#727070;
-	text-align:center;
+	text-align:left;
+	text-indent: 2em;
 }
 .group-summary .summary img {
 	width:100%;
@@ -914,7 +920,7 @@ body {
 	margin:0 auto;
 	line-height:40px;
 	color:#727070;
-	font-size:16px;
+	font-size:18px;
 }
 .history #content .txt li.cur,.more-link {
 	display:block;
